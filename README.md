@@ -1,14 +1,16 @@
 # Auto Diagnosis
 Automatic diagnosis code (ICD-9) assignment from doctor's notes
 
-This project was developed as part of the Deep Learning (Fall 2018) course together with Orhun Ozbek, Akmaral Yessenalina, Brynja Sigurdottir
-
-# Extreme Multi-Label Classification of Disease Codes From Medical Text
+This project was developed as part of the Deep Learning (Fall 2018) course together with Orhun Ozbek, Akmaral Yessenalina, Brynja Sigurpalsdottir, and unofficially published as **Extreme Multi-Label Classification of Disease Codes From Medical Text**
 
 ## Idea
 The purpose of this project is multi-label classification of disease diagnosis codes (ICD9) in patient discharge notes from MIMIC-III dataset. We compare and improve on the several state-of-the-art deep learning methods (e. g., CNNs, HANs).
 
-To run the project:
+## Models
+
+
+
+## To run the project:
 
 1. Clone the git repository from the source or copy
 and paste the project documents.
@@ -54,7 +56,7 @@ involve `n` binary classifications (`n` = number of labels).
                             cuda:gpu
     ```
 
-1. You can adjust the hyperparameters by editing `constants.py`
+1. You can adjust the system paths (data, models, model outputs and logging) and hyperparameters by editing `constants.py`
 1. Run embedding classification (it takes approximately 6 hours on GPU):
 
     ```console
