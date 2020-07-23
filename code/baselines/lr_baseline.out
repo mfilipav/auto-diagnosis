@@ -1,0 +1,18 @@
+2019-01-19 11:33:43 Training set have 6785 unique ICD9 codes.
+2019-01-19 13:41:50 OrderedDict([('acc_macro', 0.009142193307093682), ('acc_micro', 0.2153159429264391), ('auc_macro', 0.870557930484218), ('auc_micro', 0.9740933472127828), ('f1_at_8', 0.43444275586897935), ('f1_macro', 0.016178647556398792), ('f1_micro', 0.35433739543968407), ('prec_at_8', 0.49197536037546097), ('prec_macro', 0.035409389677618607), ('prec_micro', 0.6821432950504761), ('rec_at_8', 0.3889572945991216), ('rec_macro', 0.010484528805502541), ('rec_micro', 0.23932776001261885)])
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+/mnt/ds3lab-scratch/oezbeko/dl-2018-mimic-iii/venv/lib/python3.5/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
