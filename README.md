@@ -1,13 +1,13 @@
 # Auto Diagnosis
 ## Automatic diagnosis code (ICD-9) assignment from doctor's notes
 
-This project was developed as part of the Deep Learning (Fall 2018) course together with Orhun Ozbek, Akmaral Yessenalina, Brynja Sigurpalsdottir, and unofficially published as [**Extreme Multi-Label Classification of Disease Codes From Medical Text (2019)**](misc/auto_diagnosis_2018.pdf)
+This project was developed as part of the Deep Learning (Fall 2018) course, lead by Thomas Hofmann, together with Orhun Ozbek, Akmaral Yessenalina, Brynja Sigurpalsdottir, and unofficially published as [**Extreme Multi-Label Classification of Disease Codes From Medical Text (2019)**](misc/auto_diagnose_2019_report.pdf)
 
 ## Idea
 The purpose of this project is multi-label classification of disease diagnosis codes (ICD9) in patient discharge notes from MIMIC-III dataset. We compare and improve on the several state-of-the-art deep learning methods (CNNs, Hierarchical Attention Networks, RNNs).
 
 ## Models
-Convolutional Attention for Multi-Label classification (CAML) model is described below:
+### Convolutional Attention for Multi-Label classification (CAML) model is described below:
 
 ![alt text](misc/caml.png "CAML model")
 
@@ -23,15 +23,16 @@ Convolutional Attention for Multi-Label classification (CAML) model is described
 
 
 
-Multi-label Classification scheme for medical discharge records is described below:
+### Multi-label Classification scheme for medical discharge records is described below:
 ![alt text](misc/multilabel_clf.png "multilabel clf scheme")
 
 1. Learn doctors notes document embeddings with CAML procedure above 
-1. Instead of using label vectors as the target variables directly, we obtained label embeddings by using AttentionWalk algorithm, and aggregated label embeddings corresponding to each document to obtain a new target vector
+1. Instead of using label vectors as the target variables directly, we obtained 256-dim label graph embeddings by using AttentionWalk algorithm. For each document, corresponding label embeddings are aggregated by taking by averaging. Resulting representation of the document is used as the target vector for multi-target regression.
+
 1. Resulting document embeddings are mapped to the label power set using Multi-Label K-Nearest Neighbor (ML-KNN) algorithm
 
 
-Our model resulted in similar metric performance to CAML and CNN state-of-the-art models:
+### Our model resulted in similar metric performance to CAML and CNN state-of-the-art models:
 ![alt text](misc/results.png "results")
 
 
