@@ -42,7 +42,7 @@ nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.2
 nltk==3.4.5
-notebook==5.7.4
+notebook==6.1.5
 numpy==1.15.4
 nvidia-ml-py3==7.352.0
 -e git+https://github.com/thunlp/OpenNE/@b8b4cbe854e2e1a432c6f3c0d934938e0ef4c2bb#egg=openne&subdirectory=src
